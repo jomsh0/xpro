@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      :root {
+        --bg: hsl(220deg 10% 11%);
+        --fg: hsl(0deg 0% 84%);
+      }
+      body {
+        background: var(--bg);
+        color: var(--fg);
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: hsl(220deg 10% 84%);
+          --fg: hsl(0deg 0% 10%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Test</h1>
+  </body>
+</html>
